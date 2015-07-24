@@ -120,7 +120,7 @@ if [ -d $HOME/.zsh.before/ ]; then
   fi
 fi
 
-for config_file ($HOME/.zprezto/zpreztoc/*.zsh) source $config_file
+for config_file ($HOME/.zprezto/config/*.zsh) source $config_file
 
 # Load any custom after code
 if [ -d $HOME/.zsh.after/ ]; then
