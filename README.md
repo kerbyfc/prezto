@@ -1,4 +1,4 @@
-zprezto config
+zprezto
 ========
 
 installation
