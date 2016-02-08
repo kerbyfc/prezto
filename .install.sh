@@ -1,5 +1,7 @@
 #!/bin/zsh
 
+rm -rf ~/.zprezto
+
 [[ ! -d "~/.zprezto" ]] && git clone --recursive https://github.com/kerbyfc/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 setopt EXTENDED_GLOB
